@@ -12,7 +12,7 @@ const IndexPage = () => (
     <p>Welcome to Cool Kids Creations.</p>
     <p>Look around and find something cool.</p>
     <StaticImage
-      src="../images/gatsby-astronaut.png"
+      src="../images/cool-kids-playing.jpg"
       width={300}
       quality={95}
       formats={["auto", "webp", "avif"]}
@@ -20,10 +20,8 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
     <p>
-      <Link to="/page-2/">Go to About Me</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
+      <Link to="/page-2/">Go to About Us</Link> <br />
+      <Link to="/product/">Go to Products</Link> <br />
     </p>
   </Layout>
 )
