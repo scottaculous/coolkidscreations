@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const SecondPage = () => (
+const About = () => (
   <Layout>
     <Seo title="Page two" />
     <h1>Hi</h1>
@@ -26,4 +26,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default About

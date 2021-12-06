@@ -8,6 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
@@ -34,13 +35,11 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
+        <footer style={{marginTop: `2rem`,}}>
+        <Link to="/about/">About Us</Link> <br />
+        <Link to="/product/">Products</Link> <br />
+        <Link to="/blog/">Blog</Link> <br />
           © {new Date().getFullYear()}, Built by cool kids creator
-          
         </footer>
       </div>
     </>
