@@ -35,13 +35,22 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer style={{marginTop: `2rem`,}}>
-        <Link to="/about/">About Us</Link> <br />
-        <Link to="/product/">Products</Link> <br />
+        
+      </div>
+      <footer style={{marginTop: `2rem`, background: `skyblue`,}}>
+      <div
+        style={{
+          margin: `0 auto`,
+          maxWidth: 960,
+          padding: `0 1.0875rem 1.45rem`,
+        }}
+      >
+        <Link to="/about/">About Us</Link> &nbsp;
+        <Link to="/product/">Products</Link> &nbsp;
         <Link to="/blog/">Blog</Link> <br />
           © {new Date().getFullYear()}, Built by cool kids creator
+        </div>
         </footer>
-      </div>
     </>
   )
 }
