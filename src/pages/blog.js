@@ -15,7 +15,7 @@ const Blog = () => (
       <li>Dwonloaded a Gatsby template from gatsbyjs.com on GitHub using git clone</li>
       <li>Modified the template to coolkidscreations</li>
       <li>Setup coolkidscreations repo in GitHub</li>
-      <li>Made a logo</li>
+      <li>Made a logo.  Fun fact the logo means roblox and minecraft.</li>
     </ol>
 
   </Layout>
