@@ -16,7 +16,7 @@ const Product = () => (
       width={400}
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt="Product 1"
+      alt="Product 1fffffffffffffffffffff"
       style={{ marginBottom: `1.45rem` }}
     /> <br />
     Picture of Cool Kids Creator - $5.99 <br />
