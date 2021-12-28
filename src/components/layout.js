@@ -49,7 +49,7 @@ const Layout = ({ children }) => {
         <Link to="/about/">About Us</Link> &nbsp;
         <Link to="/product/">Products</Link> &nbsp;
         <Link to="/blog/">Blog</Link> <br />
-          © {new Date().getFullYear()}, Built by cool kids creator
+          © {new Date().getFullYear()}, built by cool kids creator
         </div>
         </footer>
     </>
