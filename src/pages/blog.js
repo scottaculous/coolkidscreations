@@ -19,6 +19,8 @@ const Blog = () => (
       <li>Deployed the website using <code>npm run deploy</code></li>
       <li>Made a logo.  Fun fact the logo means roblox and minecraft.</li>
       <li>Uploaded our first <Link to="/product/">product</Link></li>
+      <li>Uploaded our first paypal <Link to="/product/">button</Link></li>
+      
     </ol>   
 
   </Layout>
