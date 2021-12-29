@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 
 const Blog = () => (
   <Layout>
-    <Seo title="Cool Kids Blog" />
+    <Seo title="Blog" />
     <h1>Blog</h1>
     
     <ol>
@@ -20,7 +20,7 @@ const Blog = () => (
       <li>Made a logo.  Fun fact the logo means roblox and minecraft.</li>
       <li>Uploaded our first <Link to="/product/">product</Link></li>
       <li>Uploaded our first paypal <Link to="/product/">button</Link></li>
-      
+      <li>Made two products on the website</li>
     </ol>   
 
   </Layout>

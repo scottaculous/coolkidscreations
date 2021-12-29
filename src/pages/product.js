@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 
 const Product = () => (
   <Layout>
-    <Seo title="Cool Kids Products" />
+    <Seo title="Products" />
     <h1>Products</h1>
     
     <h3>Picture of Cool Kids Creator - $5.99 </h3>

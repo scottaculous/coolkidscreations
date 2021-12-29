@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 
 const About = () => (
   <Layout>
-    <Seo title="Page two" />
+    <Seo title="About Us" />
     <h1>Hi</h1>
     <p>We are a group of kids that make cool stuff.  We founded in August 2021.  I hope you like our site.</p>
     <p>Thanks, 
@@ -18,7 +18,7 @@ const About = () => (
       width={400}
       quality={95}
       formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
+      alt="Two cool kids"
       style={{ marginBottom: `1.45rem` }}
     />
     <br />
