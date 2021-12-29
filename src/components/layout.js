@@ -48,8 +48,12 @@ const Layout = ({ children }) => {
       >
         <Link to="/about/">About Us</Link> &nbsp;
         <Link to="/product/">Products</Link> &nbsp;
-        <Link to="/blog/">Blog</Link> <br />
-          © {new Date().getFullYear()}, built by cool kids creator
+        <Link to="/blog/">Blog</Link> &nbsp;
+        <Link to="/roadmap/">Roadmap</Link> &nbsp;
+        <br />
+        <br />
+        © {new Date().getFullYear()}, built by cool kids creator
+          
         </div>
         </footer>
     </>
