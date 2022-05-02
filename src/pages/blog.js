@@ -21,7 +21,9 @@ const Blog = () => (
       <li>Uploaded our first <Link to="/product/">product</Link></li>
       <li>Uploaded our first paypal <Link to="/product/">button</Link></li>
       <li>Made two products on the website</li>
-    </ol>   
+    </ol>
+          
+          
 
   </Layout>
 )

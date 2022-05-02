@@ -10,6 +10,10 @@ const Payment = () => (
     <Seo title="Payment" />
     <h1>Payment</h1>
     
+    <p>
+      note: open your <Link to="https://www.coinomi.com/">coinomi app</Link> to do it.
+    </p>
+
     <h3>Bitcoin</h3>
     Address: bc1qlk3nf8zqp988ffx0n2m4pklfcaeu5wjyrmfjh3 <br />
     <StaticImage
