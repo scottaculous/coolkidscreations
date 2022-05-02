@@ -11,7 +11,7 @@ const Payment = () => (
     <h1>Payment</h1>
     
     <p>
-      note: open your <Link to="https://www.coinomi.com/">coinomi app</Link> to do it.
+      note: open your <Link to="https://www.coinomi.com/" target="_blank">coinomi app</Link> to do it.
     </p>
 
     <h3>Bitcoin</h3>
