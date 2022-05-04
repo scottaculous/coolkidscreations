@@ -23,6 +23,7 @@ const IndexPage = () => (
       <Link to="/about/">Go to About Us</Link> <br />
       <Link to="/product/">Go to Products</Link> <br />
       <Link to="/blog/">Go to Blog</Link> <br />
+      <Link to="/career/">Go to Careers</Link><br />
     </p>
   </Layout>
 )
